@@ -1,0 +1,17 @@
+{
+    "model_name": "EleutherAI/gpt-neo-125M",
+    "model_type": "compbitnet",
+    "tokenized_dataset_path": "/nvme_pool/cache/gpt-125M-redpajama-v2",
+    "validation_split": 0.0001,
+    "batch_size": 48,
+    "grad_accum_steps": 16,
+    "output_dir": "./checkpoints-compbitnet",
+    "learning_rate": 0.05,
+    "epochs": 1,
+    "weight_decay": 0.01,
+    "warmup_steps": 1000,
+    "lr_scheduler_type": "cosine",
+    "bf16": true,
+    "max_length": 512
+  }
+  
